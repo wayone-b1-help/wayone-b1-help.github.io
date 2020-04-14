@@ -1,0 +1,70 @@
+{
+  "menu": [
+    {
+      "title": "Usuários",
+      "children": [
+        {
+          "page": "Como pesquisar um usuário",
+          "url": "/pages/user/search"
+        },
+        {
+          "page": "Como adicionar um usuário",
+          "url": "/pages/user/add"
+        },
+        {
+          "page": "Como editar um usuário",
+          "url": "/pages/user/edit"
+        },
+        {
+          "page": "Como excluir um usuário",
+          "url": "/pages/user/remove"
+        }
+      ]
+    },
+    {
+      "title": "Orçamento",
+      "children": [
+        {
+          "page": "Encontrar um Orçamento",
+          "url": "/pages/budget/search"
+        },
+        {
+          "page": "Alterar Tabela de Preço e conceder Descontos",
+          "url": "/pages/budget/discount"
+        },
+        {
+          "page": "Informar formas de pagamento para um Orçamento",
+          "url": "/pages/budget/payment-terms"
+        },
+        {
+          "page": "Editando procedimentos em um Orçamento",
+          "url": "/pages/budget/edit"
+        },
+        {
+          "page": "Gerar contrato de um Orçamento",
+          "url": "/pages/budget/contract"
+        },
+        {
+          "page": "Imprimir um Orçamento",
+          "url": "/pages/budget/print"
+        },
+        {
+          "page": "Enviando um Orçamento para Resgate",
+          "url": "/pages/budget/rescue"
+        },
+        {
+          "page": "Enviando um Orçamento para Pagamento",
+          "url": "/pages/budget/payment"
+        },
+        {
+          "page": "Rejeitar um Orçamento",
+          "url": "/pages/budget/reject"
+        },
+        {
+          "page": "Definindo os Agentes Comercial e de Resgate",
+          "url": "/pages/budget/agents"
+        }
+      ]
+    }
+  ]
+}
