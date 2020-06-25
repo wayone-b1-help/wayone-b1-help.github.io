@@ -1,70 +1,51 @@
 {
   "menu": [
-    {
-      "title": "Usuários",
+       {
+      "title": "Acesso SAP",
       "children": [
         {
-          "page": "Como pesquisar um usuário",
-          "url": "/pages/user/search"
+          "page": "Como acessar o SAP",
+          "url": "/pages/usersap/access"
         },
         {
-          "page": "Como adicionar um usuário",
-          "url": "/pages/user/add"
-        },
-        {
-          "page": "Como editar um usuário",
-          "url": "/pages/user/edit"
-        },
-        {
-          "page": "Como excluir um usuário",
-          "url": "/pages/user/remove"
+          "page": "Primeiro Acesso",
+          "url": "/pages/usersap/firstaccess"
         }
       ]
     },
     {
-      "title": "Orçamento",
+      "title": "Relatórios",
       "children": [
         {
-          "page": "Encontrar um Orçamento",
-          "url": "/pages/budget/search"
+          "page": "Como extrair Relatório para Excel",
+          "url": "/pages/report/save"
         },
         {
-          "page": "Alterar Tabela de Preço e conceder Descontos",
-          "url": "/pages/budget/discount"
+          "page": "Como baixar os arquivos da Nuvem",
+          "url": "/pages/report/download"
         },
         {
-          "page": "Informar formas de pagamento para um Orçamento",
-          "url": "/pages/budget/payment-terms"
+          "page": "Como adicionar arquivo à Nuvem",
+          "url": "/pages/report/upload"
         },
         {
-          "page": "Editando procedimentos em um Orçamento",
-          "url": "/pages/budget/edit"
+          "page": "Como Gerar/imprimir um Relatório",
+          "url": "/pages/report/print"
         },
         {
-          "page": "Gerar contrato de um Orçamento",
-          "url": "/pages/budget/contract"
-        },
-        {
-          "page": "Imprimir um Orçamento",
-          "url": "/pages/budget/print"
-        },
-        {
-          "page": "Enviando um Orçamento para Resgate",
-          "url": "/pages/budget/rescue"
-        },
-        {
-          "page": "Enviando um Orçamento para Pagamento",
-          "url": "/pages/budget/payment"
-        },
-        {
-          "page": "Rejeitar um Orçamento",
-          "url": "/pages/budget/reject"
-        },
-        {
-          "page": "Definindo os Agentes Comercial e de Resgate",
-          "url": "/pages/budget/agents"
+          "page": "Gerenciador de Consultas",
+          "url": "/pages/report/querymanager"
         }
       ]
-    }
+    },
+  {
+      "title": "Cadastro de Pacientes",
+      "children": [
+        {
+          "page": "Exibindo Pacientes no SAP",
+          "url": "/pages/businesspartners/search"
+        }
+      ]
+    },
   ]
 }
